@@ -1,0 +1,34 @@
+{
+  "extends": "../../tsconfig.json",
+  "compilerOptions": {
+    "useDefineForClassFields": true,
+    "lib": ["DOM", "DOM.Iterable", "ESNext"],
+    "jsx": "react-jsx",
+    "baseUrl": "src",
+    "resolveJsonModule": true,
+    "paths": {
+      "components/*": ["./components/*"],
+      "pages/*": ["./pages/*"],
+      "providers/*": ["./providers/*"],
+      "assets/*": ["./assets/*"],
+      "styles/*": ["./styles/*"],
+      "utils/*": ["./utils/*"],
+      "hooks/*": ["./hooks/*"],
+      "services/*": ["./services/*"],
+      "hoc/*": ["./hoc/*"],
+      "enums/*": ["./enums/*"],
+      "data/*": ["./data/*"],
+      "types/*": ["./types/*"],
+      "constants/*": ["./constants/*"],
+      "safe/*": ["./safe/*"]
+    }
+  },
+  "include": [
+    "**/*.ts",
+    "**/*.tsx",
+    "**/*.json",
+    "api/ping.js",
+    "api/geoblock.js"
+  ],
+  "exclude": ["node_modules", "./dist/"]
+}

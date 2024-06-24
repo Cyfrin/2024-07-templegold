@@ -1,0 +1,24 @@
+[submodule "protocol/lib/solidity-lib"]
+	path = protocol/lib/solidity-lib
+	url = https://github.com/uniswap/solidity-lib
+[submodule "protocol/lib/openzeppelin-contracts"]
+	path = protocol/lib/openzeppelin-contracts
+	url = https://github.com/openzeppelin/openzeppelin-contracts/
+[submodule "protocol/lib/v2-core"]
+	path = protocol/lib/v2-core
+	url = https://github.com/uniswap/v2-core
+[submodule "protocol/lib/v2-periphery"]
+	path = protocol/lib/v2-periphery
+	url = https://github.com/uniswap/v2-periphery
+[submodule "protocol/lib/v3-periphery"]
+	path = protocol/lib/v3-periphery
+	url = https://github.com/uniswap/v3-periphery
+[submodule "protocol/lib/v3-core"]
+	path = protocol/lib/v3-core
+	url = https://github.com/uniswap/v3-core
+[submodule "protocol/lib/forge-std"]
+	path = protocol/lib/forge-std
+	url = https://github.com/foundry-rs/forge-std
+[submodule "protocol/lib/openzeppelin-contracts-upgradeable"]
+	path = protocol/lib/openzeppelin-contracts-upgradeable
+	url = https://github.com/openzeppelin/openzeppelin-contracts-upgradeable

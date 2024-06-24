@@ -1,0 +1,9 @@
+{
+  "rewrites": [{ "source": "/(.*)", "destination": "/" }],
+  "github": {
+    "silent": false,
+    "enabled": false,
+    "autoJobCancelation": true
+  },
+  "buildCommand": "yarn vite:build"
+}

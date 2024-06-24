@@ -1,0 +1,9 @@
+node_modules
+.env
+.env-dev
+.env*
+**/*.tsbuildinfo
+*.env
+.DS_STORE
+shared/stack/deployed-addr.txt
+.vercel
