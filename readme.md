@@ -1,11 +1,15 @@
 # Temple DAO
 
+[//]: # (contest-details-open)
+
+## Contest Details
+
 ### Prize Pool
 
 - Total Pool - $25,000
-- H/M -  20k
-- Low -2.5k
-- Community Judging - 2.5k
+- H/M -  $20,000
+- Low -$2,500
+- Community Judging - $2,500
 
 - nSLOC: 998
 
@@ -34,6 +38,10 @@ Actors:
     DAO Executor: Temple DAO governance executor contract. Controls spice auction configuration and parameters through governance.
     Distribution starter: A bot if set to non-zero address. Distributes TGLD for the next reward epoch
 ```
+
+[//]: # (contest-details-close)
+
+[//]: # (scope-open)
 
 ## Scope (contracts)
 
@@ -67,7 +75,11 @@ Compatibilities:
       - [ERC20](https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/token/ERC20/ERC20.sol)
 ```
 
-## Setup
+[//]: # (scope-close)
+
+[//]: # (getting-started-open)
+
+## Getting Started
 
 Please outline specific steps/processes to be followed in order for an auditor to run the project off a local clone of the contest repo. Please again be detailed and thorough, including specific markdowned CLI commands and necessary .env adjustments.
 
@@ -109,6 +121,10 @@ Tests:
 forge test --mc TempleGoldStaking
 ```
 
+[//]: # (getting-started-close)
+
+[//]: # (known-issues-open)
+
 ## Known Issues
 
 Known Issues:
@@ -139,3 +155,5 @@ This is intended to make TGLD non-tradable.
 - TempleGold incompatibility with some chains -
 Because of PUSH0 not supported in `0.8.19` or lower versions of solidity compiler, TempleGold will be
 incompatible with chains like Linea where it only supports solidity compiler 0.8.19 or lower.
+
+[//]: # (known-issues-close)
