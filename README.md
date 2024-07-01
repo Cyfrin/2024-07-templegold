@@ -1,7 +1,5 @@
 # Temple DAO
 
-[//]: # (contest-details-open)
-
 ## Contest Details
 
 ### Prize Pool
@@ -15,6 +13,8 @@
 
 - Starts: July 4, 2024 Noon UTC
 - Ends: July 11, 2024 Noon UTC
+
+[//]: # (contest-details-open)
 
 ## About the Project
 
