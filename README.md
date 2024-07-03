@@ -183,10 +183,8 @@ nvm use 20.0.0
 Setup:
 ```bash
 # clone repository
-git clone git@github.com:TempleDAO/temple.git
+git clone https://github.com/Cyfrin/2024-07-templegold.git
 cd temple/protocol
-# switch branch
-git checkout templegold
 # install dependencies
 yarn install
 ```
