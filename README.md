@@ -238,4 +238,6 @@ This is intended to make TGLD non-tradable.
 Because of PUSH0 not supported in `0.8.19` or lower versions of solidity compiler, TempleGold will be
 incompatible with chains like Linea where it only supports solidity compiler 0.8.19 or lower.
 
+**_Additional Known issues detected by LightChaser available [here](https://github.com/Cyfrin/2024-07-templegold/issues/1)_**
+
 [//]: # (known-issues-close)
