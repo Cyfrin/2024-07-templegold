@@ -184,7 +184,7 @@ Setup:
 ```bash
 # clone repository
 git clone https://github.com/Cyfrin/2024-07-templegold.git
-cd temple/protocol
+cd 2024-07-templegold
 # install dependencies
 yarn install
 ```
